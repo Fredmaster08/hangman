@@ -39,7 +39,7 @@ int main() {
 
     while(1)  {
         for (int i = 0; i < random_word_len; i++) {
-
+            
         }
     }
 
