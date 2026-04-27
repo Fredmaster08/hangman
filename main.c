@@ -29,12 +29,19 @@ int main() {
     }
 
     board[random_word_len] = '\0';
+    printf("%s\n", words[random_index]);
     for (int i = 0; i < random_word_len; i++) {
-        
+        printf("%c ", board[i]);
     }
-
-    printf("%s\n%s\n", words[random_index], board);
+    fflush(stdout);
     
+    int input = 0;
+
+    while(1)  {
+        for (int i = 0; i < random_word_len; i++) {
+
+        }
+    }
 
 
     return 0;
